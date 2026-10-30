@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<head>
+    <title>Student Registration Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+        <h2>Student Registration Form</h2>
+
+        <form>
+            <label for="name">Full Name:</label>
+            <input type="text" id="name" placeholder="Enter your full name" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" placeholder="Enter your email" required>
+
+            <label for="course">Course/Program:</label>
+            <select id="course" required>
+                <option value="">Select your course</option>
+                <option>HTML/CSS</option>
+                <option>JavaScript</option>
+                <option>Python</option>
+                <option>Graphic Design</option>
+                <option>UI/UX Design</option>
+            </select>
+
+            <div class="group">
+                <label>Gender:</label>
+
+                <div class="option">
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="option">
+                    <input type="radio" name="gender" id="other" value="Other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+
+            <div class="group">
+                <label>Technical Skills / Interests:</label>
+
+                <div class="option">
+                    <input type="checkbox" id="html" name="skills" value="HTML/CSS">
+                    <label for="html">HTML/CSS</label>
+                </div>
+
+                <div class="option">
+                    <input type="checkbox" id="js" name="skills" value="JavaScript">
+                    <label for="js">JavaScript</label>
+                </div>
+
+                <div class="option">
+                    <input type="checkbox" id="python" name="skills" value="Python">
+                    <label for="python">Python</label>
+                </div>
+            </div>
+
+            <div class="buttons">
+                <button type="reset" class="reset">Reset</button>
+                <button type="submit" class="submit">Submit</button>
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>

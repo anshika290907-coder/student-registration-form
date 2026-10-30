@@ -1,0 +1,97 @@
+
+body {
+    background-color: #aec1bc;
+    font-family: "Times New Roman", serif;
+    margin: 0;
+    padding: 30px 15px;
+    border: 2px solid #222;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.container {
+    background-color: white;
+    max-width: 480px;
+    margin: 0 auto;
+    padding: 25px;
+    border-radius: 8px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 18px;
+    color: #333;
+    border-bottom: 2px solid #64a3ff;
+    padding-bottom: 2px;
+    margin-bottom: 18px;
+}
+
+form > label,
+.group > label {
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 7px;
+}
+
+input[type="text"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.group {
+    margin-bottom: 15px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+.option input {
+    margin: 0 6px 0 4px;
+}
+
+.option label {
+    font-weight: normal;
+}
+
+.buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 20px;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 8px 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+.reset {
+    background-color: #dc3545;
+}
+
+.submit {
+    background-color: #28a745;
+}
+
+.reset:hover {
+    background-color: #bb2d3b;
+}
+
+.submit:hover {
+    background-color: #218838;
+}
